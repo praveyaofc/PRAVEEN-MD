@@ -1,15 +1,15 @@
 {
-               "name": "DARK-SHAN-MD",
-               "version": "1.0.1",
-               "description": "Multi device whatsapp bot by DARKSHAN.",
+               "name": "PRAVEEN-MD",
+               "version": "1.0.0",
+               "description": "Multi device whatsapp bot by PRAVEEN.",
                "main": "lib/client.js",
                "type": "commonjs",
                "license": "GPL-3.0",
    "scripts": {
-                "start": "pm2 start lib/client.js --deep-monitoring --attach --name DARKSHAN",
-                "stop": "pm2 stop DARKSHAN"
+                "start": "pm2 start lib/client.js --deep-monitoring --attach --name PRAVEEN",
+                "stop": "pm2 stop PRAVEEN"
                 },
-               "author": "DARKSHAN",
+               "author": "PRAVEEN",
               "dependencies": {
                        
                        "@whiskeysockets/baileys": "^6.5.0",
@@ -119,10 +119,10 @@
                     },
                  "repository": {
                  "type": "git",
-                 "url": "git+https://github.com/kushansewmina1234/DARK-SHAN-MD.git"
+                 "url": "git+https://github.com/praveyaofc/PRAVEEN-MD.git"
                   },
                  "bugs": {
-                 "url": "https://github.com/kushansewmina1234/DARK-SHAN-MD/issues"
+                 "url": "https://github.com/praveyaofc/PRAVEEN-MD/issues"
                   },
-                 "homepage": "https://github.com/kushansewmina1234/DARK-SHAN-MD#readme"
+                 "homepage": "https://github.com/praveyaofc/PRAVEEN-MD#readme"
                   }
