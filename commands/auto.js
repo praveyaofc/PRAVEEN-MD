@@ -11,7 +11,7 @@ var videotime = 36000 // 300 min
 var dlsize = 1000 // 1000mb
 
 cmd({
-            pattern: "test1",
+            pattern: "song2",
             react: "🎧",
             desc: "Downloads audio from youtube.",
             category: "downloader",
@@ -26,7 +26,7 @@ cmd({
                },
                 caption: `
 
-🎧 𝗞𝗜𝗡𝗚 𝗩𝗔𝗝𝗜𝗥𝗔 𝗡𝗢𝗡 🎧
+🎧 PRAVEEN 🎧
 
 🚨 *Youtube Player* 🌿
  ◨┉━━━━╚◭☬◮╝━━━━━┉◧
@@ -39,7 +39,7 @@ cmd({
 *5.1 ╏ AUDIO* 🎧
 *6.1 ╏ DOCUMENT* 📂
 
-*👑 ©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ 👑* 
+*👑 ©ᴄʀᴇᴀᴛᴇᴅ ʙʏ praveen 👑* 
 `,
                 footer: tlang().footer,
                 headerType: 4,
