@@ -46,13 +46,13 @@ cmd(
         try {
             
 
-            let { data } = await axios.get('https://api.github.com/repos/kushansewmina1234/DARK-SHAN-MD')
-        let cap = `💈 *DARK SHAN MD REPO* \n
+            let { data } = await axios.get('https://api.github.com/repos/praveyaofc/PRAVEEN-MD')
+        let cap = `💈 *PRAVEEN MD REPO* \n
 *⭐ Total Stars:* ${data.stargazers_count} stars
 
 *🍽️ Forks:* ${data.forks_count} forks
 
-*🍁 Repo:* https://github.com/kushansewmina1234/DARK-SHAN-MD`
+*🍁 Repo:* https://github.com/praveyaofc/PRAVEEN-MD`
             
             await Void.sendPoll(citel.chat, cap, [`${prefix}sewmina`, `${prefix}kushan`],
                      
