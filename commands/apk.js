@@ -24,7 +24,7 @@ let result = await download(text)
             url: icon,
         }, 
         caption: `
-        \n ✧ *DARK SHAN MD  DOWNLOADER*
+        \n ✧ *PRAVEEN MD  DOWNLOADER*
         \n━━━━━━━━━━━━━━━━━━
         
         \n 📚 *ᴀᴘᴘ ɴᴀᴍᴇ:* ${getname}
@@ -41,7 +41,7 @@ let result = await download(text)
         },
         mimetype: "application/vnd.android.package-archive",
         fileName: getname,
-        caption: `👑 *DARKSHAN-MD V1*`,
+        caption: `👑 *PRAVEEN-MD V1*`,
     }, {
         quoted: citel,
     });
