@@ -2,9 +2,9 @@ import { MessageType, MessageOptions, Mimetype } from '@whiskeysockets/baileys'
 
 const id = 'abcd@s.whatsapp.net' // the WhatsApp ID 
 // send a simple text!
-const sentMsg  = await sock.sendMessage(id, { text: 'oh hello there' })
+const sentMsg  = await sock.sendMessage(id, { text: 'hy' })
 // send a reply messagge
-const sentMsg  = await sock.sendMessage(id, { text: 'oh hello there' }, { quoted: message })
+const sentMsg  = await sock.sendMessage(id, { text: 'hy' }, { quoted: message })
 // send a mentions message
 const sentMsg  = await sock.sendMessage(id, { text: '@12345678901', mentions: ['12345678901@s.whatsapp.net'] })
 // send a location!
@@ -31,7 +31,7 @@ const sentMsg  = await sock.sendMessage(
 
 const reactionMessage = {
     react: {
-        text: "💖", // use an empty string to remove the reaction
+        text: "Name", // use an empty string to remove the reaction
         key: message.key
     }
 }
